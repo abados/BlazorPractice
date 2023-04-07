@@ -1,0 +1,45 @@
+﻿@page "/"
+@inject HttpClient HttpClient;
+
+<PageTitle>Index</PageTitle>
+
+<h1>Api Calling</h1>
+
+<button class="btn btn-success" @onclick="GetStudents">Get Students List</button>
+
+<table class="table">
+	<thead>
+		<tr>
+			<th>Student Id</th>
+			<th>Name</th>
+			<th>Roll</th>
+		</tr>
+	</thead>
+
+	<tbody>
+		@foreach(var student in Students)
+		{
+			<tr>
+				<td>@student.StudentId</td>
+				<td>@student.Name</td>
+				<td>@student.Roll</td>
+			</tr>
+		}
+	</tbody>
+</table>
+
+@code{
+	List<Student> Students = new List<Student>();
+
+	private async Task GetStudents()
+	{
+		Students = await HttpClient.GetJsonAsync<List<Student>>("https://localhost:7271/api/Students");
+	}
+
+	public class Student
+	{
+		public int StudentId { get; set; } = 0;
+		public string Name { get; set; } = "";
+		public string Roll { get; set; } = "";
+	}
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>BlazorFileUpload</title>
+    <base href="/" />
+    <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/app.css" rel="stylesheet" />
+    <link href="BlazorFileUpload.Client.styles.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="app">Loading...</div>
+
+    <div id="blazor-error-ui">
+        An unhandled error has occurred.
+        <a href="" class="reload">Reload</a>
+        <a class="dismiss">🗙</a>
+    </div>
+    <script src="_framework/blazor.webassembly.js"></script>
+    <script>
+        window.downloadFileFromStream = async (fileName, contentStreamReference) => {
+            // Convert the content stream reference to an array buffer.
+            const arrayBuffer = await contentStreamReference.arrayBuffer();
+
+            // Create a new Blob object from the array buffer.
+            const blob = new Blob([arrayBuffer]);
+
+            // Create a new object URL for the Blob object.
+            const url = URL.createObjectURL(blob);
+
+            // Create a new <a> element in the DOM.
+            const anchorElement = document.createElement('a');
+
+            // Set the href attribute of the <a> element to the object URL.
+            anchorElement.href = url;
+
+            // Set the download attribute of the <a> element to the file name, or an empty string if the file name is null or undefined.
+            anchorElement.download = fileName ?? '';
+
+            // Programmatically click the <a> element to trigger the file download.
+            anchorElement.click();
+
+            // Remove the <a> element from the DOM.
+            anchorElement.remove();
+
+            // Release the object URL created earlier to free up memory.
+            URL.revokeObjectURL(url);
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\Users\oferm\source\repos\C learning\תקופת היזמות\Blazor\BlazorApiCalling\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\appsettings.json
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.exe
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.deps.json
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.runtimeconfig.json
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\WebApi.pdb
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfo.cs
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.csproj.CoreCompileInputs.cache
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.build.WebApi.props
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.WebApi.props
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.WebApi.props
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\refint\WebApi.dll
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.pdb
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
+C:\Users\User\source\Blazor\BlazorPractice\BlazorApiCalling\WebApi\obj\Debug\net7.0\ref\WebApi.dll
