@@ -1,10 +1,12 @@
-﻿using BlazorFileUpload.Server.Data;
+﻿using BlazorFileUpload.Client.Pages;
+using BlazorFileUpload.Server.Data;
 using BlazorFileUpload.Shared;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.IO;
 using System.Net;
+using System.Xml;
 
 namespace BlazorFileUpload.Server.Controllers
 {
@@ -14,11 +16,13 @@ namespace BlazorFileUpload.Server.Controllers
     {
         private readonly IWebHostEnvironment _env;
         private readonly DataContext _context;
+        private readonly IWebHostEnvironment _environment;
 
-        public FileController(IWebHostEnvironment env, DataContext context)
+        public FileController(IWebHostEnvironment env, DataContext context, IWebHostEnvironment environment)
         {
             _env = env;
             _context = context;
+            _environment= environment;
         }
 
         [HttpGet("{fileName}")]
@@ -76,5 +80,44 @@ namespace BlazorFileUpload.Server.Controllers
             await _context.SaveChangesAsync();
             return Ok(uploadResults);
         }
+
+        [HttpGet]
+        public async Task<List<Employee>> GetEmployeesAsync()
+        {
+            List<Employee> employees = new List<Employee>();
+            string baseDirectory = AppContext.BaseDirectory;
+            string projectDirectory = baseDirectory;
+
+            for (int i = 0; i < 5; i++) // Go up three directories
+            {
+                projectDirectory = Directory.GetParent(projectDirectory).FullName;
+            }
+
+            string wwwrootPath = Path.Combine(projectDirectory, "Client", "wwwroot");
+            string filePath = Path.Combine(wwwrootPath, "Employee.xml");
+
+            XmlDocument doc = new XmlDocument();
+            try { 
+            doc.Load(filePath);
+
+            foreach (XmlNode node in doc.SelectNodes("/Employees/Employee"))
+            {
+                employees.Add(new Employee()
+                {
+                    Id = int.Parse(node["Id"].InnerText),
+                    Name = node["Name"].InnerText,
+                    Country = node["Country"].InnerText,
+                });
+            }
+
+            return employees;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return null;
+            }
+        }
+
     }
 }

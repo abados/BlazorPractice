@@ -1,0 +1,48 @@
+﻿@page "/Employees"
+@using BlazorFileUpload.Shared
+@using System.Net.Http.Json;
+@inject HttpClient Http
+
+<h3>Employees</h3>
+
+@if (employees == null)
+{
+    <p><em>Loading...</em></p>
+}
+else if (employees.Count == 0)
+{
+    <p>No employees found.</p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Country</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in employees)
+            {
+                <tr>
+                    <td>@employee.Id</td>
+                    <td>@employee.Name</td>
+                    <td>@employee.Country</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private List<Employee> employees;
+
+    protected override async Task OnInitializedAsync()
+    {
+ 
+        employees = await Http.GetFromJsonAsync<List<Employee>>("/api/File");
+        StateHasChanged();
+    }
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" standalone="yes"?>
+<Employees>
+  <Employee>
+	<Id>1</Id>
+	<Name>Jacob</Name>
+	<Country>Israel</Country>
+   </Employee>
+  <Employee>
+	<Id>1</Id>
+	<Name>Jacob</Name>
+	<Country>Israel</Country>
+   </Employee>
+  <Employee>
+	<Id>2</Id>
+	<Name>Bill</Name>
+	<Country>India</Country>
+   </Employee>
+
+  <Employee>
+	<Id>3</Id>
+	<Name>Smith</Name>
+	<Country>Aus</Country>
+   </Employee>
+
+  <Employee>
+	<Id>4</Id>
+	<Name>Jhon</Name>
+	<Country>Russia</Country>
+   </Employee>
+</Employees>
