@@ -39,12 +39,10 @@ else
 }
 
 @code {
-    //private WeatherForecast[]? forecasts;
-    private IEnumerable<WeatherForecast> forecasts;
+    private WeatherForecast[]? forecasts;
 
     protected override async Task OnInitializedAsync()
     {
-        //forecasts = await ForecastService.GetForecastAsync(DateOnly.FromDateTime(DateTime.Now));
-        forecasts = await Http.GetFromJsonAsync<IEnumerable<WeatherForecast>>("http://localhost:5117/api/forecast");
+        forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("WeatherForecast");
     }
 }

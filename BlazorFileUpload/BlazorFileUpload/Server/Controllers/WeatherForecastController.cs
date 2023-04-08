@@ -20,15 +20,22 @@ namespace BlazorFileUpload.Server.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<WeatherForecast> Get()
+        public IEnumerable<WeatherForecast> Get([FromQuery] int page)
         {
-            return Enumerable.Range(1, 5).Select(index => new WeatherForecast
+            try {
+            return Enumerable.Range(page*5-4, 5).Select(index => new WeatherForecast
             {
                 Date = DateTime.Now.AddDays(index),
                 TemperatureC = Random.Shared.Next(-20, 55),
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return Enumerable.Empty<WeatherForecast>();
+            }
         }
     }
 }
